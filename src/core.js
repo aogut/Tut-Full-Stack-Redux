@@ -2,6 +2,7 @@ import { List, Map } from 'immutable';
 export const INITIAL_STATE = Map();
 
 export function setEntries(state, entries) {
+  console.log('core: setEntries (new)', entries);
   return state.set('entries', List(entries));
 }
 
@@ -16,6 +17,7 @@ function getWinners(vote) {
 }
 
 export function next(state) {
+  console.log('core: next -> oldstate', state);
   const entries = state.get('entries')
                        .concat(getWinners(state.get('vote')));
   if (entries.size === 1) {
@@ -31,6 +33,7 @@ export function next(state) {
 }
 
 export function vote(state, entry) {
+  console.log('core: vote', state);
   return state.updateIn(
     ['tally', entry],
     0,
