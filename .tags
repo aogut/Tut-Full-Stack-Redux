@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+name	C:\sandbox\tut-voting-server\package.json	/^  "name": "tut-voting-server",$/;"	function	line:2
+version	C:\sandbox\tut-voting-server\package.json	/^  "version": "1.0.0",$/;"	function	line:3
+description	C:\sandbox\tut-voting-server\package.json	/^  "description": "",$/;"	function	line:4
+main	C:\sandbox\tut-voting-server\package.json	/^  "main": "index.js",$/;"	function	line:5
+scripts	C:\sandbox\tut-voting-server\package.json	/^  "scripts": {$/;"	function	line:6
+test	C:\sandbox\tut-voting-server\package.json	/^    "test": "echo \\"Error: no test specified\\" && exit 1"$/;"	function	line:7
+keywords	C:\sandbox\tut-voting-server\package.json	/^  "keywords": [],$/;"	function	line:9
+author	C:\sandbox\tut-voting-server\package.json	/^  "author": "",$/;"	function	line:10
+license	C:\sandbox\tut-voting-server\package.json	/^  "license": "ISC",$/;"	function	line:11
+devDependencies	C:\sandbox\tut-voting-server\package.json	/^  "devDependencies": {$/;"	function	line:12
+babel-cli	C:\sandbox\tut-voting-server\package.json	/^    "babel-cli": "^6.10.1",$/;"	function	line:13
+babel-core	C:\sandbox\tut-voting-server\package.json	/^    "babel-core": "^6.10.4",$/;"	function	line:14
+babel-preset-es2015	C:\sandbox\tut-voting-server\package.json	/^    "babel-preset-es2015": "^6.9.0",$/;"	function	line:15
+chai	C:\sandbox\tut-voting-server\package.json	/^    "chai": "^3.5.0",$/;"	function	line:16
+mocha	C:\sandbox\tut-voting-server\package.json	/^    "mocha": "^2.5.3"$/;"	function	line:17
